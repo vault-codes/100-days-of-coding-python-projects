@@ -1,13 +1,9 @@
-# practice tasks
-# checking the length of the users name
-#print(len(input("Whats your name")))
+# my first python project 
 
+#Band Name Generator
 
-#i created a variable to store the users name and then created a variable to store the length of the variable used to store the users name
+print("Welcome to Vault Band Name Generator\nThank you!")
 
-users_name = input("Whats your name")
-
-
-length_users_name = len(users_name)
-
-print(length_users_name)
+user_city = input("Whats the name of the city you grew up in\n")
+user_pet_name = input("Whats your pet name?\n")
+print("Your band name could be " + user_pet_name + " "+ user_city)
