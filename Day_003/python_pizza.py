@@ -44,7 +44,7 @@ if cheese == "Y":
     pizza_bill += 1
 
 
-print(f"{customers_name}, Your bill is : {pizza_bill}")
+print(f"{customers_name}, Your bill is : ${pizza_bill}")
 
 
 
